@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header  {
+    background-color:#d4b9bb;
+    color:#fff;
+    padding: 15px;
+    text-align: center ;
+    border-bottom: 3px solid #d4b9bb
+}
+
+.container{
+    background-color:#E7E7EC;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.produtos-container{
+    margin:0;
+}
+
+.card{
+    width: 31%;
+    display:inline-block;
+    margin:1% 1%;
+    padding: 30px;   
+}
+
+.product-image{
+    height: 300px;
+    width:100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+background-image: url('../projetocss/sweet-7972193_640.jpg');   
+}
+
+#img-2{
+background-image: url('../projetocss/chocolate-8499837_640.jpg');  
+}
+
+#img-3{
+background-image: url('../projetocss/cupcake-8215179_640.jpg');
+}
+
+#img-4{
+background-image: url('../projetocss/doce1.jpg');
+}
+
+#img-5{
+background-image: url('../projetocss/macaroons-2178371_640.jpg'); 
+}
+
+#img-6{
+
+ background-image: url('../projetocss/cake-3257019_640.jpg'); 
+}
+
+h3{
+    color:#4f7a9e;
+    text-align: center;
+}
+
+p {
+   color:#4f7a9e;
+   margin: 5px;
+   text-align: center; 
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #d3a5b1;
+    color: #E7E7EC;
+    padding: 15px;
+    border-radius: 5px;
+    transition:  .5s;
+    margin-top: 5px;
+}
+
+.btn:hover{
+background-color:#c8DAE8;
+ color:#4f7a9e;
+}
+
+footer{
+    background-color:#d4b9bb;
+    color:#E7E7EC;
+    border-top: 3px solid#d4b9bb;
+    text-align: right;
+    padding: 20px;
+}
+
